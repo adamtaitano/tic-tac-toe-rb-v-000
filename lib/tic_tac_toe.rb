@@ -30,5 +30,5 @@ def position_taken?(board, index)
 end
 
 def valid_move?(board, index)
-  if index
+  if index.between()
 end
