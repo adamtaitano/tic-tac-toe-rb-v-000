@@ -42,6 +42,6 @@ def turn()
   if valid_move?(index)
     board[index] == character
   else
-    
+    turn()
   end
 end
