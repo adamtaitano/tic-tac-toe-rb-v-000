@@ -87,5 +87,12 @@ end
 
 def play(board)
   until over?(board)
+    turn()
+  end
   
+  if won?(board)
+  
+  elsif draw?(board)
+  
+  end
 end
