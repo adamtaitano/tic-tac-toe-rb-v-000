@@ -47,5 +47,5 @@ def turn()
 end
 
 def turn_count(board)
-  board.count 
+  board.count {|cell| 
 end
