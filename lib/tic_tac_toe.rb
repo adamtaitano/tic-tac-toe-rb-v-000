@@ -93,6 +93,6 @@ def play(board)
   if won?(board)
     puts "Congratulations #{board[won?(board)[0]]}"
   elsif draw?(board)
-  
+    
   end
 end
