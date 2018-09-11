@@ -47,5 +47,9 @@ def turn()
 end
 
 def turn_count(board)
-  board.count {|cell| cell == "X" || "O" 
+  board.count {|cell| cell == "X" || "O" }
+end
+
+def current_player(board)
+  
 end
